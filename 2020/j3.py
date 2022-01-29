@@ -22,6 +22,6 @@ for i in range(N):
     if int(y) > maxY:
         maxY = int(y)
 
-# output minX, minY and maxX, maxY
+# output
 print(str(minX-1) + "," + str(minY-1))
 print(str(maxX+1) + "," + str(maxY+1))
