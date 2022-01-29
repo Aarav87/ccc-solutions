@@ -15,7 +15,6 @@ while total_infected <= target:
     days += 1
     # increase the num of people infected
     total_infected += (spread ** days) * initial
-    print(total_infected)
 
 # output days
 print(days)
